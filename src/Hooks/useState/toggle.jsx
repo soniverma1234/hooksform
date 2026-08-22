@@ -5,6 +5,7 @@ const Toggal = () => {
   return (
     <>
      <body>{light ? "🟡 Light ON" : "⚪ Light OFF"}</body>
+     <br />
      <button onClick={() => setLight(!light)}>Switch</button>
     </>
   );
